@@ -43,12 +43,32 @@ article {
     padding: 8px;
 }
 
+.socialmedia {
+    display: flex;
+    gap: 10px;
+}
+
+.socialmedia img {
+    width: 30px;
+    height: auto;
+}
+
 .socialmedia a {
     text-decoration: none;
 }
 
 .hero {
     position: relative;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    width: 90%;
+    left: 5%;
+    padding: 20px;
+
+    background-color: var(--accent2-color);
 }
 
 .hero img {
@@ -72,4 +92,15 @@ h1 {
 .hero article img {
     float: right;
     width: 125px;
+    margin-left: 15px;
+}
+
+section {
+    background-color: var(--secondary-color);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
