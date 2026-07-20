@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #055a05;
+    --primary-color: #003747;
     /* forest green */
     --secondary-color: #f4a261;
     /* warm sand */
@@ -94,7 +94,6 @@ nav a:hover {
 .hero article {
     position: absolute;
     bottom: 30px;
-    width: 90%;
     left: 5%;
     width: 90%;
     background: rgba(255, 255, 255, .85);
