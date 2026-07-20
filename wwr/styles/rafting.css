@@ -31,14 +31,15 @@ footer {
 
 header {
     display: grid;
-    grid-template-columns: 150px 1fr;
+    grid-template-columns: auto 1fr;
     align-items: center;
     background-color: #d8c8f0;
     padding: 20px;
 }
 
 header img {
-    width: 100px;
+    width: 120px;
+    height: auto;
 }
 
 h1,
